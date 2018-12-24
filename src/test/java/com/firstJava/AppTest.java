@@ -12,7 +12,11 @@ public class AppTest {
 	public void test() {
 		MyExample ex = new MyExample();
 		Assert.assertEquals(ex.getval(), "Sample Code");
-		//fail("Not yet implemented");
+	}
+	@Test
+	public void test2() {
+		MyExample ex = new MyExample();
+		Assert.assertEquals(ex.getResult(), "1st test successful");
 	}
 
 }
